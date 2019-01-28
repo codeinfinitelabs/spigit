@@ -1,0 +1,21 @@
+{
+  "name": "loghose",
+  "version": "0.0.1",
+  "description": "A simple logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=text-summary --reporter=html mocha"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.x.x",
+    "mocha": "5.x.x",
+    "nyc": "13.x.x"
+  },
+  "dependencies": {
+    "fast-safe-stringify": "2.x.x",
+    "hoek": "6.x.x",
+    "joi": "14.x.x",
+    "pumpify": "1.x.x"
+  }
+}
